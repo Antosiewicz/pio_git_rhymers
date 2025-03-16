@@ -1,8 +1,39 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# Pliki binarne i katalogi kompilacji
+/bin/
+/target/
+
+# Pliki IDE (Eclipse, IntelliJ, VS Code)
+*.iml
+.idea/
+*.classpath
+*.project
+*.settings/
+
+# Pliki systemowe i tymczasowe
+.DS_Store
+Thumbs.db
+
+# Pliki Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Pliki logów i zależności
+*.log
+dependency-reduced-pom.xml
+
+# Pliki testowe i raporty
+/test-output/
+/surefire-reports/
+/jacoco/
+
+# Pliki generowane przez IDE i edytory
+*.swp
+*.swo
+*.bak
+
+# Pliki binarne Javy
+*.class
+*.jar
+*.war
+*.ear
