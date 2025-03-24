@@ -3,8 +3,8 @@ package edu.kis.vh.nursery.list;
 public class IntLinkedList {
 
     public static final int RETURN_VALUE = -1;
-    Node last;
-    int i;
+    private Node last; // Zmieniamy na private
+    private int i; // Zmieniamy na private
 
     public void push(int i) {
         if (last == null)
@@ -37,5 +37,4 @@ public class IntLinkedList {
         last = last.prev;
         return ret;
     }
-
 }
