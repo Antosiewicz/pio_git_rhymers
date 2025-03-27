@@ -13,7 +13,7 @@ public class DefaultCountingOutRhymer {
     public int getTotal() {
         return total;
     }
-    
+
     public static int getMaxSize() {
         return MAX_SIZE;
     }
@@ -55,7 +55,4 @@ public class DefaultCountingOutRhymer {
         return numbers;
     }
 
-    public void setTotal(int total) {
-        this.total = total;
-    }
 }
