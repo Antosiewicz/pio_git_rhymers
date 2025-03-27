@@ -8,11 +8,23 @@ public class DefaultCountingOutRhymer {
 
     private final int[] numbers = new int[MAX_SIZE];
 
+    private int total = EMPTY_NUMBERS_INDICATOR;
+
     public int getTotal() {
         return total;
     }
+    
+    public static int getMaxSize() {
+        return MAX_SIZE;
+    }
 
-    private int total = EMPTY_NUMBERS_INDICATOR;
+    public static int getEmptyNumbersIndicator() {
+        return EMPTY_NUMBERS_INDICATOR;
+    }
+
+    public static int getReturnValue() {
+        return RETURN_VALUE;
+    }
 
     public void countIn(int in) {
         if (!isFull())
@@ -39,4 +51,11 @@ public class DefaultCountingOutRhymer {
         return numbers[total--];
     }
 
+    public int[] getNumbers() {
+        return numbers;
+    }
+
+    public void setTotal(int total) {
+        this.total = total;
+    }
 }
